@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <table border="2" class=" toptable">
+            <tr>
+                <th>
+                    <a href="./index.html">HOME</a>
+                </th>
+                <th>
+                    <a href="./list.html">LIST</a>
+                </th>
+                <th>
+                    <a href="./table.html">TABLE</a>
+                </th>
+                <th>
+                    <a href="./form.html">FORM</a>
+                </th>
+            </tr>
+        </table>
+    </header>
+    <main>
+        <h1 style="color: chocolate;">Form</h1>
+        <hr />
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="Name" placeholder="Enter Your Name">
+            <br />
+            <label for="phone">Phone#</label>
+            <input type="tel" name="Phone#" id="phone" placeholder="Enter Phone Number">
+            <br />
+            <label for="email">Email</label>
+            <input type="email" name="Email" id="email" placeholder="Enter Email">
+            <br />
+            <label for="date">Select Date</label>
+            <input type="datetime-local" name="date" id="Date">
+            <br />
+            <button id="submit">Submit</button>
+            <button id="cancel">Cancel</button>
+            <button id="reset">Reset</button>
+        </form>
+    </main>
+</body>
+
+</html>

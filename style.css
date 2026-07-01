@@ -1,0 +1,53 @@
+@font-face {
+    font-family: zubair;
+    src: url('./Assets/Fonts/BitcountGridDoubleInk-VariableFont_CRSV\,ELSH\,ELXP\,SZP1\,SZP2\,XPN1\,XPN2\,YPN1\,YPN2\,slnt\,wght.ttf');
+}
+
+.toptable {
+    background-color: rgb(4, 220, 248);
+    color: #3453453B;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    display: flex;
+
+    justify-content: center;
+}
+
+.home {
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+body {
+    background-color: burlywood;
+}
+
+p {
+    color: antiquewhite;
+    margin: 30px;
+    font-family: "Oswald", sans-serif;
+}
+
+h1 {
+    color: aqua !important;
+}
+
+#submit {
+    background-color: chartreuse;
+    color: aliceblue;
+    margin: 20px;
+}
+
+#reset {
+    background-color: aqua;
+    color: aliceblue;
+    margin: 20px;
+}
+
+#cancel {
+    background-color: red;
+    color: aliceblue;
+    margin: 20px;
+}
